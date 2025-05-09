@@ -1,14 +1,22 @@
+# Visual Studio & editör çöpleri
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.db
+*.vscode/
+*.bin
+*.vcxproj.*
+*.cache
+
+# Unreal build klasörleri
 Binaries/
+Build/
 DerivedDataCache/
 Intermediate/
 Saved/
-Build/
-.vscode/
-.idea/
-*.sln
-*.vcxproj*
-*.exe
-*.log
-*.obj
-*.pdb
-*.user
+
+# OS çöpleri
+.DS_Store
+Thumbs.db
